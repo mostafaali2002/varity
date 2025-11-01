@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varity/views/dicee_view.dart';
+// import 'package:varity/views/dicee_view.dart';
 import 'package:varity/views/xylophone_view.dart';
 
 void main() {
