@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:varity/constant.dart';
 import 'package:varity/widgets/custom_appbar.dart';
 import 'package:varity/widgets/dicee_row.dart';
 
@@ -17,7 +18,7 @@ class _DiceeViewState extends State<DiceeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(208, 6, 130, 164),
+      backgroundColor: backGroundColor,
       appBar: appBar(appBarTitle: "Dicee", appBarIcon: "assets/dice2.png"),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
