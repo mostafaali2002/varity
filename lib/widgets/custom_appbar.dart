@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 PreferredSizeWidget? appBar(
     {required String appBarTitle, required String appBarIcon}) {
   return AppBar(
+    automaticallyImplyLeading: false,
     backgroundColor: const Color.fromARGB(57, 11, 155, 195),
     title: Row(
       mainAxisAlignment: MainAxisAlignment.center,

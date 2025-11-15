@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:varity/views/home_view.dart';
-// import 'package:varity/views/dicee_view.dart';
+//import 'package:varity/views/home_view.dart';
+import 'package:varity/views/splash_view.dart';
 import 'package:varity/views/xylophone_view.dart';
+// import 'package:varity/views/dicee_view.dart';
+//import 'package:varity/views/xylophone_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      home: XylophoneView(),
     );
   }
 }
