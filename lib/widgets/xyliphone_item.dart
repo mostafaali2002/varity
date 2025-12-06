@@ -20,7 +20,7 @@ class XyliphoneItem extends StatelessWidget {
         children: [
           Expanded(
             child: Container(
-              height: 80,
+              height: 105,
               color: xylophoneModel.xylophoneColor,
             ),
           ),
